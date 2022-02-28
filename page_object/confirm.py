@@ -39,3 +39,8 @@ class Confirm:
         log.info('Text received from alert is ' + alert_text)
 
         assert 'Success' in alert_text
+
+    @staticmethod
+    def new_function_for_git():
+        for i in range(1, 3):
+            print('test only')

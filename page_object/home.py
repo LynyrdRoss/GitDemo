@@ -46,3 +46,8 @@ class HomePage:
         self.driver.find_element(
             By.CSS_SELECTOR, "[type='submit']"
         ).click()
+
+    @staticmethod
+    def new_function_for_git():
+        for i in range(1, 3):
+            print('test only')
