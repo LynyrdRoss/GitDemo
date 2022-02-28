@@ -5,6 +5,10 @@ from page_object.checkout import CheckOut
 
 
 class HomePage:
+    new_variable_to_push_one = 'Ross'
+    new_variable_to_push_two = 'Lynyrd'
+    new_variable_to_push_three = 'LynyrdRoss'
+
     def __init__(self, driver):
         self.driver = driver
 
@@ -51,3 +55,15 @@ class HomePage:
     def new_function_for_git():
         for i in range(1, 3):
             print('test only')
+
+    @staticmethod
+    def after_pulling_new_code_additions():
+        print('test test')
+        print('test test')
+        print('test test')
+
+    @staticmethod
+    def after_pulling_new_code_additions():
+        print('test test')
+        print('test test')
+        print('test test')

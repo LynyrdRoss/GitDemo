@@ -4,6 +4,10 @@ from page_object.confirm import Confirm
 
 
 class CheckOut:
+    new_variable_to_push_from_checkout_one = 'One'
+    new_variable_to_push_from_checkout_two = 'Two'
+    new_variable_to_push_from_checkout_three = 'Three'
+
     def __init__(self, driver):
         self.driver = driver
 
@@ -32,3 +36,9 @@ class CheckOut:
         ).click()
 
         return Confirm(self.driver)
+
+    def new_click_checkout_btn(self):
+        return self.driver.find_element(
+            By.CSS_SELECTOR,
+            "a[class*='btn-primary']"
+        ).click()
