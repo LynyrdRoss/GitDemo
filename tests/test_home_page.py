@@ -32,11 +32,11 @@ class TestHomePage(ParentClass):
         self.driver.refresh()
 
     @staticmethod
-    def two_new_function():
+    def two_new_function_edited():
         for i in range(1, 3):
             print('New function example')
 
     @staticmethod
-    def three_new_function():
+    def three_new_function_merge_conflict():
         for i in range(1, 3):
             print('New function example')
