@@ -47,3 +47,18 @@ class CheckOut:
     def two_new_function():
         for i in range(1, 3):
             print('New function example')
+
+    @staticmethod
+    def three_new_function():
+        for i in range(1, 3):
+            print('New function example')
+
+    @staticmethod
+    def four_new_function():
+        for i in range(1, 3):
+            print('New function example')
+
+    @staticmethod
+    def five_new_function():
+        for i in range(1, 3):
+            print('New function example')

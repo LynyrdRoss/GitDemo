@@ -57,18 +57,6 @@ class HomePage:
             print('test only')
 
     @staticmethod
-    def after_pulling_new_code_additions():
-        print('test test')
-        print('test test')
-        print('test test')
-
-    @staticmethod
-    def after_pulling_new_code_additions():
-        print('test test')
-        print('test test')
-        print('test test')
-
-    @staticmethod
     def two_new_function():
         for i in range(1, 3):
             print('New function example')
