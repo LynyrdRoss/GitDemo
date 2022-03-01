@@ -42,3 +42,8 @@ class CheckOut:
             By.CSS_SELECTOR,
             "a[class*='btn-primary']"
         ).click()
+
+    @staticmethod
+    def two_new_function():
+        for i in range(1, 3):
+            print('New function example')

@@ -44,3 +44,8 @@ class Confirm:
     def new_function_for_git():
         for i in range(1, 3):
             print('test only')
+
+    @staticmethod
+    def two_new_function():
+        for i in range(1, 3):
+            print('New function example')

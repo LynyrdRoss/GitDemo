@@ -67,3 +67,8 @@ class HomePage:
         print('test test')
         print('test test')
         print('test test')
+
+    @staticmethod
+    def two_new_function():
+        for i in range(1, 3):
+            print('New function example')
